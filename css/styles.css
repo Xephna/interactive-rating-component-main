@@ -1,4 +1,65 @@
-body {
-    background-color: hsl(216, 12%, 8%);
+* {
+    box-sizing: border-box;
+
 }
 
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Overpass', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 15px;
+}
+
+.rating-container {
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    /* needs to have gradient color */
+}
+
+.thankyou-container {
+    display: none;
+}
+
+.star-container {
+    background-color: hsl(216, 12%, 54%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    width: 36px;
+    height: 36px;
+}
+
+.star {
+    width: 13px;
+}
+
+.score {
+    display: flex;
+}
+
+.submit-btn {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    margin: 1rem auto;
+    position: sticky;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 600px){
+
+}

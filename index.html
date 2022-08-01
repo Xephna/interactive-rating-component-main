@@ -19,35 +19,35 @@
 <body>
   <main>
   <!-- Rating state start -->
-  <div class="rating-container">
-    <div class="star-container"><img class="star" src="./images/icon-star.svg" alt="Star icon"></div>
+  <div id="rating-container" class="rating-container">
+    <div class="round-container"><img class="star" src="./images/icon-star.svg" alt="Star icon"></div>
     <h2>How did we do?</h2>
 
     <p>Please let us know how we did with your support request. All feedback is appreciated 
     to help us improve our offering!</p>
 
-    <div class="score">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
+    <div id="score" class="score">
+      <div id="rate-1" class="round-container">1</div>
+      <div id="rate-2" class="round-container">2</div>
+      <div id="rate-3" class="round-container">3</div>
+      <div id="rate-4" class="round-container">4</div>
+      <div id="rate-5" class="round-container">5</div>
     </div>
 
-    <button class="submit-btn">Submit</button>
+    <button id="submit-btn" class="submit-btn">SUBMIT</button>
   </div>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
-  <div class="thankyou-container">
+  <div id="thank-you-container" class="thankyou-container">
 
-  
-  You selected <!-- Add rating here --> out of 5
+  <img id="thank-you-img" src="./images/illustration-thank-you.svg" alt="">
+  <div class="long-container"><p id="rating" class="rating">You selected 0 out of 5</p></div>
 
-  Thank you!
+  <h2>Thank you!</h2>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
   </div>
   <!-- Thank you state end -->
 
